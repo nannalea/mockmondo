@@ -1,6 +1,6 @@
 ## Mockmondo
 
-A flight search and travel site imitation based on Momondo, attempting to mirror the look, feel of the popular metasearch site as well as certain interactions and features.
+A flight search and travel site imitation based on Momondo, attempting to mirror the look and feel of the popular metasearch site as well as certain interactions and features.
 
 
 ## Mock User Login
