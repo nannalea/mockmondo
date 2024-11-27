@@ -1,0 +1,26 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+RewriteRule ^$                  view_index.php [NC,L]
+RewriteRule ^index$             view_index.php [NC,L]
+RewriteRule ^stays$             view_stays.php [NC,L]
+RewriteRule ^cars$              view_cars.php [NC,L]
+RewriteRule ^ferries$           view_ferries.php [NC,L]
+RewriteRule ^experiences$       view_experiences.php [NC,L]
+RewriteRule ^package_deals$     view_package_deals.php [NC,L]
+RewriteRule ^explore$           view_explore.php [NC,L]
+RewriteRule ^restrictions$      view_restrictions.php [NC,L]
+RewriteRule ^trips$             view_trips.php [NC,L]
+RewriteRule ^signup$            view_signup.php [NC,L]
+
+RewriteRule ^profile$           view_profile.php [NC,L]
+RewriteRule ^user_trips$        view_user_trips.php [NC,L]
+
+RewriteRule ^fonts.css$         css_fonts.css [NC,L]
+RewriteRule ^style.css$         css_style.css [NC,L]
+
+RewriteRule ^app.js$            js_app.js [NC,L]
+RewriteRule ^validator.js$      js_validator.js [NC,L]
+
+ErrorDocument 404 /momondo/view_404.php
